@@ -1,0 +1,24 @@
+{
+    "id": 147056107,
+    "name": "sonic dih",
+    "author": "bleepboopbop",
+    "creators": ["bleepboopbop"],
+    "verifier": "bleepboopbop",
+    "verification": "https://youtu.be/bT2VcriJ9-8",
+    "percentToQualify": "100",
+    "password": "Free to Copy",
+    "records": [
+        {
+        "user": "MrBazooka",
+        "link": "https://medal.tv/games/screen-capture/clips/nnuV7XGdM2ADH0exe?invite=cr-MSxnQ1AsMzc5MDEwMTE2",
+        "percent": 100,
+        "hz": 480
+        },
+        {
+            "user": "JestyyCAt",
+            "link": "https://youtu.be/ZZ3VLH0sLaw",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

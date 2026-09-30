@@ -1,0 +1,207 @@
+:root {
+    --color-background: #ffffff;
+    --color-on-background: #000000;
+    --color-background-hover: #eeeeee;
+    --color-on-background-hover: #000000;
+    --color-primary: #006D5B;
+    --color-on-primary: #ffffff;
+    --color-error: #de0000;
+    --color-on-error: #ffffff;
+    
+    --font-sans: 'Lexend Deca', system-ui, -apple-system, sans-serif;
+    --radius-sm: 6px;
+    --radius-full: 9999px;
+    --transition: 0.2s ease;
+}
+
+/* Global Reset for Media Elements */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img, svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+body.dark,
+header.dark,
+main.dark {
+    color-scheme: dark;
+    --color-background: #1c1b1f;
+    --color-on-background: #ffffff;
+    --color-background-hover: #27262c;
+    --color-on-background-hover: #ffffff;
+    --color-primary: #006D5B;
+    --color-primary-disabled: #1f213c;
+    --color-on-primary: #ffffff;
+    --color-error: #de0000;
+    --color-on-error: #ffffff;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: var(--font-sans);
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+}
+
+/* Header Container */
+header {
+    display: flex;
+    align-items: center;
+    padding-inline: calc(25vw - 10rem);
+    height: 4rem;
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (min-width: 1366px) {
+    header {
+        display: grid;
+        grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 2fr) minmax(16rem, 1fr);
+        column-gap: 2rem;
+        padding-inline: 0;
+    }
+}
+
+header .logo {
+    justify-self: end;
+    align-self: center;
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+
+header .logo h2 {
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+header .logo p {
+    margin: 0;
+    font-size: 0.75rem;
+    opacity: 0.85;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.1rem 0.4rem;
+    border-radius: var(--radius-full);
+    line-height: 1;
+}
+
+header .nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1.5rem;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav__tab {
+    padding: 0.4rem 0.8rem;
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    border-radius: var(--radius-sm);
+    transition: background-color var(--transition), color var(--transition);
+}
+
+.nav__tab:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.nav__tab.router-link-active {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.nav__actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: var(--radius-sm);
+    transition: background-color var(--transition);
+}
+
+.nav__icon img {
+    width: 1.25rem;
+    height: 1.25rem;
+    max-width: 1.25rem;
+    max-height: 1.25rem;
+}
+
+.nav__icon:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.nav__cta {
+    background-color: #ffffff;
+    color: var(--color-primary);
+    padding: 0.4rem 0.85rem;
+    text-decoration: none;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    transition: transform var(--transition), background-color var(--transition);
+}
+
+.nav__cta:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: translateY(-1px);
+}
+
+/* Grid Layout Framework */
+main {
+    height: 0;
+    flex: 1;
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+    display: grid;
+    grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 2fr) minmax(16rem, 1fr);
+    grid-template-rows: minmax(0, 1fr);
+    column-gap: 2rem;
+}
+
+main > div {
+    overflow-y: auto;
+}
+
+.spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: span 3;
+}
+
+input[type="checkbox"] {
+    height: 1.25rem;
+    width: 1.25rem;
+    cursor: pointer;
+    margin: 0;
+}

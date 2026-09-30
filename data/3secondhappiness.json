@@ -1,0 +1,26 @@
+{
+    "id": 145991315,
+    "name": "3 second happiness",
+    "author": "bleepboopbop",
+    "creators": [
+        "bleepboopbop"
+    ],
+    "verifier": "bleepboopbop",
+    "verification": "https://youtu.be/xjsa3Me510A",
+    "percentToQualify": 100,
+    "password": "Not Copyable",
+    "records": [
+        {
+            "user": "MrBazooka",
+            "link": "https://medal.tv/games/geometry-dash/clips/neuHVERlbNglcckP5?invite=cr-MSwxNHcsMzc5MDEwMTE2",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "JestyyCAt",
+            "link": "https://youtu.be/RFxY34HIME4",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

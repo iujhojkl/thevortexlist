@@ -1,0 +1,24 @@
+{
+    "id": 147575707,
+    "name": "la peace",
+    "author": "bleepboopbop",
+    "creators": ["bleepboopbop"],
+    "verifier": "bleepboopbop",
+    "verification": "https://youtu.be/Cr8iYQCc4n4",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "MrBazooka",
+            "link": "https://medal.tv/games/geometry-dash/clips/nnBeGbCwAiBjO1hnC?invite=cr-MSxxbm4sMzc5MDEwMTE2",
+            "percent": 100,
+            "hz": 480
+        },
+        {
+            "user": "JestyyCAt",
+            "link": "https://youtu.be/krZ7p4rpRQo",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

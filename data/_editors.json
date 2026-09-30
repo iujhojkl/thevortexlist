@@ -1,0 +1,32 @@
+[
+    {
+        "role": "owner",
+        "name": "Josh1324",
+        "link": "null"
+    },
+    {
+        "role": "admin",
+        "name": "Lemon",
+        "link": "null"
+    },
+    {
+        "role": "helper",
+        "name": "HurryingJackM",
+        "link": "null"
+    },
+    {
+        "role": "trial",
+        "name": "MrBazooka",
+        "link": "https://www.youtube.com/@setahandle"
+    },
+    {
+        "role": "trial",
+        "name": "Tartarus",
+        "link": "null"
+    },
+    {
+        "role": "dev",
+        "name": "no one so far",
+        "link": "https://www.youtube.com/@Prometheus_Alt"
+    }
+]

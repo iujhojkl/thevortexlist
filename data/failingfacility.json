@@ -1,0 +1,26 @@
+{
+    "id": 145988385,
+    "name": "failing facility",
+    "author": "bleepboopbop",
+    "creators": [
+        "Josh1324"
+    ],
+    "verifier": "bleepboopbop",
+    "verification": "https://youtu.be/gZhcH-P13Po",
+    "percentToQualify": 100,
+    "password": "Not Copyable",
+    "records": [
+        {
+            "user": "MrBazooka",
+            "link": "https://medal.tv/games/screen-capture/clips/nnd5dCwpvfkBArjyl?invite=cr-MSx3RkQsMzc5MDEwMTE2",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "JestyyCAt",
+            "link": "https://youtu.be/RFxY34HIME4",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": 146063497,
+    "name": "starstruck circles",
+    "author": "bleepboopbop",
+    "creators": [
+        "bleepboopbop"
+    ],
+    "verifier": "bleepboopbop",
+    "verification": "https://youtu.be/sZVgQ3MMZv4",
+    "percentToQualify": 100,
+    "password": "Not Copyable",
+    "records": [
+        {
+            "user": "MrBazooka",
+            "link": "https://medal.tv/games/geometry-dash/clips/neuSDSdDFpOjizVTo?invite=cr-MSw3ZXMsMzc5MDEwMTE2",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "JestyyCAt",
+            "link": "https://youtu.be/RFxY34HIME4",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
